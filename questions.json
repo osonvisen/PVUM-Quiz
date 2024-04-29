@@ -1,0 +1,90 @@
+{
+    "questions": [
+        {
+            "question": "Hvilken er en sentral rolle i Scrum-teamet?",
+            "options": [
+                "A) Produktarkitekt",
+                "B) Scrum Master",
+                "C) Salgsrepresentant"
+            ],
+            "answer": "B) Scrum Master"
+        },
+        {
+            "question": "Hva er formålet med en sprint review i Scrum?",
+            "options": [
+                "A) Planlegge neste sprint",
+                "B) Gjennomgå utførte arbeider og samle tilbakemeldinger",
+                "C) Evaluere teamets medlemmer"
+            ],
+            "answer": "B) Gjennomgå utførte arbeider og samle tilbakemeldinger"
+        },
+        {
+            "question": "Hva er Produktbacklogen i Scrum?",
+            "options": [
+                "A) En liste over avsluttede oppgaver",
+                "B) En prioriteringsliste over alt arbeid som må gjøres",
+                "C) En plan for teamets ferie"
+            ],
+            "answer": "B) En prioriteringsliste over alt arbeid som må gjøres"
+        },
+        {
+            "question": "Hva er hensikten med en sprint retrospective i Scrum?",
+            "options": [
+                "A) Å feire vellykkede sprinter",
+                "B) Å identifisere hva som gikk bra, hva som kan forbedres, og planlegge forbedringer",
+                "C) Å diskutere teamets personlige problemer"
+            ],
+            "answer": "B) Å identifisere hva som gikk bra, hva som kan forbedres, og planlegge forbedringer"
+        },
+        {
+            "question": "Hva er den anbefalte lengden på en sprint i Scrum?",
+            "options": ["A) 1 uke", "B) 1 måned", "C) 6 måneder"],
+            "answer": "B) 1 måned"
+        },
+        {
+            "question": "Hvem er ansvarlig for å prioritere produktbacklogen i Scrum?",
+            "options": [
+                "A) Scrum Master",
+                "B) Utviklingsteamet",
+                "C) Produkteieren"
+            ],
+            "answer": "C) Produkteieren"
+        },
+        {
+            "question": "Hva er en av hovedmålene med en daglig stand-up i Scrum?",
+            "options": [
+                "A) Å rapportere til teamlederen",
+                "B) Å diskutere problemer med andre teammedlemmer",
+                "C) Å synkronisere arbeidet og identifisere eventuelle hindringer"
+            ],
+            "answer": "C) Å synkronisere arbeidet og identifisere eventuelle hindringer"
+        },
+        {
+            "question": "Hva er formålet med en sprint backlog i Scrum?",
+            "options": [
+                "A) En liste over arbeid som må utføres i neste sprint",
+                "B) En liste over oppgaver som allerede er gjort",
+                "C) En plan for teamets ferie"
+            ],
+            "answer": "A) En liste over arbeid som må utføres i neste sprint"
+        },
+        {
+            "question": "Hvem har ansvaret for å beskytte teamet mot eksterne forstyrrelser i Scrum?",
+            "options": [
+                "A) Utviklingsteamet",
+                "B) Produkteieren",
+                "C) Scrum Master"
+            ],
+            "answer": "C) Scrum Master"
+        },
+        {
+            "question": "Hva er en MVP i Agile Scrum?",
+            "options": [
+                "A) Most Valuable Product",
+                "B) Minimum Viable Product",
+                "C) Maximum Valuable Product"
+            ],
+            "answer": "B) Minimum Viable Product"
+        }
+    ]
+}
