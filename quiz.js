@@ -53,7 +53,7 @@ function welcomeToQuiz() {
 
     questionsDiv.append(welcome, instruction, btns);
 }
-
+// Fetcher spørsmålene etter valgt tema
 async function fetchQuestions(quiz) {
     try {
         const response = await fetch(quiz);
@@ -66,13 +66,14 @@ async function fetchQuestions(quiz) {
     }
     setTimeout(displayQuestion, 100);
 }
-
+// Finner et tilfeldig spørsmål i valgt kategori
 function findQuestion() {
     const question = Math.floor(Math.random() * questions.length);
     console.log("finner spørsmål ", question);
     return question;
 }
 
+// Så viser vi frem det vi har funnet
 function displayQuestion() {
     const question = findQuestion();
     questionsDiv.innerHTML = `
@@ -91,6 +92,8 @@ function displayQuestion() {
         });
     });
 }
+
+// Vi sjekker svaret når det gjettes
 function checkAnswer(answer, solution) {
     if (answer == solution) {
         alert("Du har riktig svar");
