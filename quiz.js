@@ -1,21 +1,62 @@
 let questions = [];
 let answered = [];
 const questionsDiv = document.querySelector(".questions");
+const theQuizes = [
+    {
+        name: "Waterfall",
+        link: "questionsWaterfall.json",
+    },
+    {
+        name: "Scrum",
+        link: "questionsScrum.json",
+    },
+    {
+        name: "Kanban",
+        link: "questionsKanban.json",
+    },
+    {
+        name: "Lean",
+        link: "questionsLean.json",
+    },
+];
 
+// Funksjon som er ment å ta vare på quiz-historikken din!
 readFromLocalStorage();
 function readFromLocalStorage() {
-    const localQuestions = localStorage.getItem("questions");
-    if (localQuestions) {
-        questions = JSON.parse(localQuestions);
+    const localHistory = localStorage.getItem("answered");
+    if (localHistory) {
+        answered = JSON.parse(localHistory);
     } else {
-        console.log("No questions found in Local storage");
-        fetchQuestions();
+        console.log("No history found");
+        welcomeToQuiz();
     }
 }
 
-async function fetchQuestions() {
+function welcomeToQuiz() {
+    questionsDiv.innerHTML = "";
+    const welcome = document.createElement("h1");
+    welcome.textContent = "Velkommen til quiz!";
+
+    const instruction = document.createElement("p");
+    instruction.textContent = "Velg hvilken metode du vil ta quiz om!";
+
+    const btns = document.createElement("div");
+    theQuizes.forEach((quiz) => {
+        const quizBtn = document.createElement("button");
+        quizBtn.textContent = quiz.name;
+        quizBtn.addEventListener("click", () => {
+            console.log(quiz.link);
+            fetchQuestions(quiz.link);
+        });
+        btns.append(quizBtn);
+    });
+
+    questionsDiv.append(welcome, instruction, btns);
+}
+
+async function fetchQuestions(quiz) {
     try {
-        const response = await fetch("questionsScrum.json");
+        const response = await fetch(quiz);
         const data = await response.json();
         questions = await data.questions;
         console.log(questions);
@@ -27,8 +68,6 @@ async function fetchQuestions() {
 }
 
 function findQuestion() {
-    console.log("Lengden på questions: ", questions.length);
-
     const question = Math.floor(Math.random() * questions.length);
     console.log("finner spørsmål ", question);
     return question;
