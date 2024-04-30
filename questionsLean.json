@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "Hva er hovedmålet med Lean-metoden?",
+            "options": [
+                "A) Å maksimere ressursutnyttelse",
+                "B) Å minimere sløsing og øke verdiskaping",
+                "C) Å øke kompleksiteten i prosessen"
+            ],
+            "answer": "B) Å minimere sløsing og øke verdiskaping"
+        },
+        {
+            "question": "Hva er en av de viktigste prinsippene bak Lean-filosofien?",
+            "options": [
+                "A) Kontinuerlig forbedring",
+                "B) Skilleverdier og ikke-verdier",
+                "C) Fastlagte prosedyrer"
+            ],
+            "answer": "B) Skilleverdier og ikke-verdier"
+        },
+        {
+            "question": "Hva er 'Jidoka' i Lean-konseptet?",
+            "options": [
+                "A) Fleksibel produksjon",
+                "B) Automatisering av prosesser",
+                "C) Bygge kvalitet inn i prosessen"
+            ],
+            "answer": "C) Bygge kvalitet inn i prosessen"
+        },
+        {
+            "question": "Hva er 'Kanban' i Lean-kontekst?",
+            "options": [
+                "A) En metode for produksjonsplanlegging",
+                "B) Et visuelt styringssystem",
+                "C) Et produksjonsanlegg"
+            ],
+            "answer": "B) Et visuelt styringssystem"
+        },
+        {
+            "question": "Hva er 'Heijunka' i Lean-filosofien?",
+            "options": [
+                "A) Just-in-time produksjon",
+                "B) Lastutjevning",
+                "C) Standardisering av prosesser"
+            ],
+            "answer": "B) Lastutjevning"
+        },
+        {
+            "question": "Hva er 'Andon' i Lean-produksjon?",
+            "options": [
+                "A) Et kontrollsystem for kvalitet",
+                "B) En metode for å øke produksjonskapasiteten",
+                "C) En måte å belønne arbeidstakere på"
+            ],
+            "answer": "A) Et kontrollsystem for kvalitet"
+        },
+        {
+            "question": "Hva er 'Gemba' i Lean-filosofien?",
+            "options": [
+                "A) Den faktiske arbeidsplassen",
+                "B) Et japansk ord for kvalitet",
+                "C) En strategi for konfliktløsning"
+            ],
+            "answer": "A) Den faktiske arbeidsplassen"
+        },
+        {
+            "question": "Hva er 'Kaizen' i Lean-kontekst?",
+            "options": [
+                "A) Rask og stor forbedring",
+                "B) Kontinuerlig forbedring",
+                "C) Automatisert produksjon"
+            ],
+            "answer": "B) Kontinuerlig forbedring"
+        },
+        {
+            "question": "Hva er 'Muda' i Lean-filosofien?",
+            "options": [
+                "A) Verdifulle handlinger",
+                "B) Tidskrevende aktiviteter",
+                "C) Bortkastet tid og ressurser"
+            ],
+            "answer": "C) Bortkastet tid og ressurser"
+        },
+        {
+            "question": "Hva er 'Poka-yoke' i Lean-produksjon?",
+            "options": [
+                "A) Et konsept for ergonomi på arbeidsplassen",
+                "B) En feiltolerant design",
+                "C) Et system for å belønne arbeidstakere"
+            ],
+            "answer": "B) En feiltolerant design"
+        }
+    ]
+}
