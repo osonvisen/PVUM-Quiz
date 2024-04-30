@@ -1,0 +1,78 @@
+{
+    "questions": [
+        {
+            "question": "Hva er hovedtrekket ved Waterfall-metoden?",
+            "options": [
+                "A) Fleksibel og iterativ tilnærming",
+                "B) Sekvensiell og lineær tilnærming",
+                "C) Kontinuerlig forbedring gjennom hele prosessen"
+            ],
+            "answer": "B) Sekvensiell og lineær tilnærming"
+        },
+        {
+            "question": "Hva er den første fasen i Waterfall-metoden?",
+            "options": ["A) Design", "B) Implementering", "C) Planlegging"],
+            "answer": "C) Planlegging"
+        },
+        {
+            "question": "Hva er en av ulempene ved Waterfall-metoden?",
+            "options": [
+                "A) Lav risiko",
+                "B) Mangel på fleksibilitet",
+                "C) Høy grad av kundeinvolvering"
+            ],
+            "answer": "B) Mangel på fleksibilitet"
+        },
+        {
+            "question": "Hva skjer etter at en fase er fullført i Waterfall-metoden?",
+            "options": [
+                "A) Gjentakelse av fasen",
+                "B) Tilbake til tidligere fase",
+                "C) Går videre til neste fase"
+            ],
+            "answer": "C) Går videre til neste fase"
+        },
+        {
+            "question": "Hvilken fase er vanligvis den lengste i Waterfall-metoden?",
+            "options": ["A) Testing", "B) Implementering", "C) Planlegging"],
+            "answer": "A) Testing"
+        },
+        {
+            "question": "Hva er et av hovedprinsippene bak Waterfall-metoden?",
+            "options": [
+                "A) Kontinuerlig tilbakemelding",
+                "B) Tidlig leveranse av verdifull funksjonalitet",
+                "C) Dokumentasjon av krav på forhånd"
+            ],
+            "answer": "C) Dokumentasjon av krav på forhånd"
+        },
+        {
+            "question": "Hvilken av følgende beskriver best Waterfall-metoden?",
+            "options": [
+                "A) Fleksibel og iterativ",
+                "B) Enkel og rask",
+                "C) Planbasert og prediktiv"
+            ],
+            "answer": "C) Planbasert og prediktiv"
+        },
+        {
+            "question": "Hva er en av fordelene med Waterfall-metoden?",
+            "options": [
+                "A) Høy grad av fleksibilitet",
+                "B) Tydelige milepæler og overganger",
+                "C) Lav risiko for endringer"
+            ],
+            "answer": "B) Tydelige milepæler og overganger"
+        },
+        {
+            "question": "Hvilken fase av Waterfall-metoden inkluderer utvikling av programvare?",
+            "options": ["A) Planlegging", "B) Design", "C) Implementering"],
+            "answer": "C) Implementering"
+        },
+        {
+            "question": "Hva er den siste fasen i Waterfall-metoden?",
+            "options": ["A) Design", "B) Implementering", "C) Vedlikehold"],
+            "answer": "C) Vedlikehold"
+        }
+    ]
+}
