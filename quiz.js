@@ -15,7 +15,7 @@ function readFromLocalStorage() {
 
 async function fetchQuestions() {
     try {
-        const response = await fetch("questions.json");
+        const response = await fetch("questionsScrum.json");
         const data = await response.json();
         questions = await data.questions;
         console.log(questions);

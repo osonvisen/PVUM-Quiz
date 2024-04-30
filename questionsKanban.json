@@ -1,0 +1,90 @@
+{
+    "questions": [
+        {
+            "question": "Hva er hovedfokuset til Kanban-metoden?",
+            "options": [
+                "A) Å planlegge i detalj",
+                "B) Å begrense arbeidet som er underveis",
+                "C) Å fokusere på sprinter"
+            ],
+            "answer": "B) Å begrense arbeidet som er underveis"
+        },
+        {
+            "question": "Hva er den typiske begrensningen for arbeid på et Kanban-brett?",
+            "options": [
+                "A) Antall timer per dag",
+                "B) Antall oppgaver i en sprint",
+                "C) Antall oppgaver som kan være i en bestemt kolonne samtidig"
+            ],
+            "answer": "C) Antall oppgaver som kan være i en bestemt kolonne samtidig"
+        },
+        {
+            "question": "Hva er et Pull-system i Kanban?",
+            "options": [
+                "A) Teamet drar arbeidsoppgaver fra en backlog",
+                "B) Teamet får oppgaver tildelt av en leder",
+                "C) Teamet velger oppgaver tilfeldig"
+            ],
+            "answer": "A) Teamet drar arbeidsoppgaver fra en backlog"
+        },
+        {
+            "question": "Hva er den typiske måten å visualisere arbeidet på i Kanban?",
+            "options": [
+                "A) Gantt-diagram",
+                "B) Burndown-diagram",
+                "C) Kanban-brett"
+            ],
+            "answer": "C) Kanban-brett"
+        },
+        {
+            "question": "Hva er et av hovedmålene med WIP-limite i Kanban?",
+            "options": [
+                "A) Å øke produksjonskapasiteten",
+                "B) Å begrense mengden arbeid som er underveis",
+                "C) Å eliminere ventetid"
+            ],
+            "answer": "B) Å begrense mengden arbeid som er underveis"
+        },
+        {
+            "question": "Hva er betydningen av akronymet 'WIP' i Kanban?",
+            "options": [
+                "A) Work In Progress",
+                "B) Work In Process",
+                "C) Work In Production"
+            ],
+            "answer": "A) Work In Progress"
+        },
+        {
+            "question": "Hvilken type arbeidsflyt brukes vanligvis i Kanban?",
+            "options": ["A) Sekvensiell", "B) Parallell", "C) Hierarkisk"],
+            "answer": "B) Parallell"
+        },
+        {
+            "question": "Hva er et av hovedprinsippene bak Kanban-metoden?",
+            "options": [
+                "A) Kontinuerlig forbedring",
+                "B) Sprintplanlegging",
+                "C) Fastlagte roller"
+            ],
+            "answer": "A) Kontinuerlig forbedring"
+        },
+        {
+            "question": "Hva er hovedforskjellen mellom Kanban og Scrum?",
+            "options": [
+                "A) Scrum har faste sprinter, mens Kanban ikke har det",
+                "B) Kanban har faste sprinter, mens Scrum ikke har det",
+                "C) Begge metodene har faste sprinter"
+            ],
+            "answer": "A) Scrum har faste sprinter, mens Kanban ikke har det"
+        },
+        {
+            "question": "Hva er en av fordelene med Kanban-metoden?",
+            "options": [
+                "A) Høyt press for å fullføre arbeid raskt",
+                "B) Fleksibilitet og evne til å tilpasse seg endringer",
+                "C) Streng struktur og faste regler"
+            ],
+            "answer": "B) Fleksibilitet og evne til å tilpasse seg endringer"
+        }
+    ]
+}
