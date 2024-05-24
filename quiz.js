@@ -19,6 +19,10 @@ const theQuizes = [
         name: "Lean",
         link: "questionsLean.json",
     },
+    {
+        name: "Extreme Programming",
+        link: "questionsXP.json",
+    },
 ];
 
 // Funksjon som er ment å ta vare på quiz-historikken din!

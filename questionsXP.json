@@ -1,0 +1,90 @@
+{
+    "questions": [
+        {
+            "question": "Hva er hovedmålet med Extreme Programming (XP)?",
+            "options": [
+                "A) Å oppnå maksimal fleksibilitet i prosjektledelse",
+                "B) Å levere høy kvalitet på programvare raskt og kontinuerlig",
+                "C) Å redusere kostnader ved prosjektutvikling"
+            ],
+            "answer": "B) Å levere høy kvalitet på programvare raskt og kontinuerlig"
+        },
+        {
+            "question": "Hva er en nøkkelpraksis i XP?",
+            "options": [
+                "A) Langsiktig planlegging",
+                "B) Parprogrammering",
+                "C) Bruk av Gantt-diagrammer"
+            ],
+            "answer": "B) Parprogrammering"
+        },
+        {
+            "question": "Hva innebærer 'parprogrammering' i XP?",
+            "options": [
+                "A) En utvikler skriver kode mens en annen tester",
+                "B) To utviklere skriver kode sammen på samme datamaskin",
+                "C) En utvikler skriver kode mens en annen dokumenterer"
+            ],
+            "answer": "B) To utviklere skriver kode sammen på samme datamaskin"
+        },
+        {
+            "question": "Hvor ofte leveres programvare i XP?",
+            "options": [
+                "A) Årlig",
+                "B) Hver måned",
+                "C) Hyppig, ofte hver uke eller to"
+            ],
+            "answer": "C) Hyppig, ofte hver uke eller to"
+        },
+        {
+            "question": "Hva er 'kontinuerlig integrasjon' i XP?",
+            "options": [
+                "A) Integrering av sluttbrukertesting",
+                "B) Regelmessig sammenslåing av kodeendringer i hovedkoden",
+                "C) Integrering av prosjektplaner med andre prosjekter"
+            ],
+            "answer": "B) Regelmessig sammenslåing av kodeendringer i hovedkoden"
+        },
+        {
+            "question": "Hva er en av de fem verdiene i XP?",
+            "options": ["A) Dokumentasjon", "B) Enkelhet", "C) Stabilitet"],
+            "answer": "B) Enkelhet"
+        },
+        {
+            "question": "Hva fokuserer 'testdrevet utvikling' (TDD) på i XP?",
+            "options": [
+                "A) Skrive tester etter koden er skrevet",
+                "B) Skrive tester før koden er skrevet",
+                "C) Skrive tester samtidig med koden"
+            ],
+            "answer": "B) Skrive tester før koden er skrevet"
+        },
+        {
+            "question": "Hva er 'refaktorering' i XP?",
+            "options": [
+                "A) Å skrive kode på nytt for å forbedre struktur uten å endre funksjonalitet",
+                "B) Å legge til ny funksjonalitet til koden",
+                "C) Å dokumentere eksisterende kode"
+            ],
+            "answer": "A) Å skrive kode på nytt for å forbedre struktur uten å endre funksjonalitet"
+        },
+        {
+            "question": "Hva betyr 'metafor' i XP?",
+            "options": [
+                "A) En måte å beskrive systemarkitektur på en enkel og forståelig måte",
+                "B) En teknikk for kodeoptimalisering",
+                "C) En måte å dokumentere krav på"
+            ],
+            "answer": "A) En måte å beskrive systemarkitektur på en enkel og forståelig måte"
+        },
+        {
+            "question": "Hva er 'fortellinger' (user stories) i XP?",
+            "options": [
+                "A) Tekniske spesifikasjoner",
+                "B) Beskrivelser av ønsket funksjonalitet sett fra brukerens perspektiv",
+                "C) Testtilfeller"
+            ],
+            "answer": "B) Beskrivelser av ønsket funksjonalitet sett fra brukerens perspektiv"
+        }
+    ]
+}
