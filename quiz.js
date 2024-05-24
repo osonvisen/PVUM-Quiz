@@ -1,5 +1,6 @@
 let questions = [];
 let answered = [];
+let counter = 0;
 const questionsDiv = document.querySelector(".questions");
 const theQuizes = [
     {
@@ -97,6 +98,15 @@ function displayQuestion() {
 function checkAnswer(answer, solution) {
     if (answer == solution) {
         alert("Du har riktig svar");
+        counter++;
+        if (counter == questions.length) {
+            alert("Du har svart alle spørsmålene!");
+            counter = 0;
+            // localStorage.setItem("answered", JSON.stringify(answered));
+            welcomeToQuiz();
+        } else {
+            displayQuestion();
+        }
     } else {
         alert("Du har feil svar");
     }
